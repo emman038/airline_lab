@@ -1,4 +1,8 @@
-public class Passenger {
+package airlineApp;
+
+import interfaces.IPassenger;
+
+public class Passenger implements IPassenger {
 
     private String name;
     private int contact;
@@ -26,11 +30,11 @@ public class Passenger {
         this.contact = contact;
     }
 
-    public int getid() {
+    public int getId() {
         return this.id;
     }
 
-    public void setid(int id) {
+    public void setId(int id) {
         this.id = id;
     }
 }
