@@ -18,6 +18,7 @@ public class Flight {
         this.flightId = 0;
     }
 
+
     public String getDestination() {
         return destination;
     }
